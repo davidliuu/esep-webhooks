@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {}
+    "C:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {}
   },
   "projects": {
-    "c:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {
+    "C:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
+        "projectUniqueName": "C:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
         "projectName": "EsepWebhook",
-        "projectPath": "c:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
+        "projectPath": "C:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
         "packagesPath": "C:\\Users\\SirSi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\obj\\",
+        "outputPath": "C:\\Users\\SirSi\\repos\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SirSi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,6 +50,10 @@
             "Amazon.Lambda.Serialization.SystemTextJson": {
               "target": "Package",
               "version": "[2.4.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -65,7 +69,15 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[8.0.10, 8.0.10]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[8.0.10, 8.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
               "version": "[8.0.10, 8.0.10]"
             }
           ],
@@ -75,6 +87,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
